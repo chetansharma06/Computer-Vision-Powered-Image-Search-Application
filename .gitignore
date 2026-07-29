@@ -1,0 +1,97 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/logs/
+
+# YOLO Models
+*.pt
+*.onnx
+*.ckpt
+runs/
+detect/
+segment/
+pose/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE/Editor
+*.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+
+# Virtual Environment specifics
+.venv
+venv
+env
+ENV
+.venv/lib
+.venv/Scripts
+.venv/pyvenv.cfg
